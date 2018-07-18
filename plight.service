@@ -1,0 +1,8 @@
+[Unit]
+Description=plight (pi light)
+
+[Service]
+ExecStart=/usr/local/bin/plight
+
+[Install]
+WantedBy=multi-user.target
